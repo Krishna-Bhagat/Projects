@@ -89,6 +89,12 @@ public class Background extends JPanel implements ActionListener, KeyListener {
         draw(g);
     }
 
+    @Override
+    public void addNotify() {
+        super.addNotify();
+        requestFocusInWindow(); // Request focus again after the component is added to the container
+    }
+
     private void draw(Graphics g) {
         //setting Background
         g.drawImage(background, 0, 0, boardwidth, boardheight, null);

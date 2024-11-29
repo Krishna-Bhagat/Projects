@@ -1,0 +1,14 @@
+.mainContainer{
+    background-color: rgba(119, 141, 141, 0.781);
+    border: 2px solid rgba(0, 0, 0, 0.724);
+    width: 230px;
+    margin: 10px;
+    font-weight: 500px;
+    border-radius: 8px;
+} 
+
+.buttondesign{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
