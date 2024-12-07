@@ -1,0 +1,25 @@
+.postcontainer{
+    padding: 10px 17px;
+    width: 50%;
+    margin: 20px 18px;
+    margin-left: 10%;
+}
+.title{
+    text-align: center;
+    font-weight: bolder;
+    font-size:xx-large;
+    font-style: normal;
+}
+
+.imagecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tags{
+    display: inline;
+    margin: 9px 1px;
+}
+h4{
+    margin: 0px 1pc;
+}
